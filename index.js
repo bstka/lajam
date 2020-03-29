@@ -106,11 +106,9 @@ function addZero(n) {
 function ClockTime() {
     var hours = document.getElementById('hours')
     var minutes = document.getElementById('minutes')
-    var second = document.getElementById('ticker')
     var date = document.getElementById('date')
     hours.innerHTML = addZero(dayjs().hour())
     minutes.innerHTML = addZero(dayjs().minute())
-    second.innerHTML = addZero(dayjs().second())
     date.innerHTML = dayjs().locale('id').format('DD MMMM YYYY')
 
     setTimeout(ClockTime, 1000)
