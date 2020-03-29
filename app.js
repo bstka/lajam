@@ -1,10 +1,10 @@
 function greet() {
+    var androbar = document.getElementById('androbar')
     var grettings = document.getElementById("grettings")
-    var quote = document.getElementById('quote')
     var jam = new Date().getHours()
     var body = document.body
-
     if (jam < 12) {
+        androbar.setAttribute('content', '')
         body.classList.add('grad1')
         body.classList.remove('grad2')
         body.classList.remove('grad3')
