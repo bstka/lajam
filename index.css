@@ -137,7 +137,7 @@ h2 {
 
 @media (max-width: 700px) {
     .TimeContainer {
-        margin-top: -35rem;
+        margin-top: -25rem;
     }
     .time {
         font-size: 6rem;
