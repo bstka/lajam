@@ -7,24 +7,29 @@
         <meta charset="utf-8">
         <meta name="theme-color" content="#ffffff" id="androbar" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Lajam | Made Bismantaka Aldila</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="index.min.css">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <canvas id="confetti" width="1" height="1"></canvas>
         <canvas id="canvas"></canvas>
         <div class="TimeContainer">
             <h1 class="grettings" id="grettings"></h1>
+            <br>
+            <h3 class="" id="date">Rabu</h3>
             <h1 class="time" id="hours"></h1>
             <p class="ticker" id="ticker"></p>
             <h1 class="time" id="minutes"></h1>
             <h2 class="quote" id="quote"></h2>
+            <br>
             <h5>Made with ❤️ by Bismantaka Aldila</h5>
         </div>
-        <script src="index.js"></script>
+        <script src="https://cdn.jsdelivr.net/combine/npm/dayjs@1,npm/dayjs@1/locale/id.min.js"></script>
+        <script src="all.js"></script>
     </body>
 </html>
